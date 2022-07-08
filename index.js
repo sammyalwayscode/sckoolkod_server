@@ -9,7 +9,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get("/", (req, res) => {
-  res.status(200).json({ message: "We are ready...!" });
+  res.status(200).json({ message: "We are ready✌️...!" });
 });
 
 app.use("/api/admin", require("./WorkPut/AdminFile/AdminRouter/AdminRouter"));

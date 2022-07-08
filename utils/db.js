@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 const MAINURL =
   "mongodb+srv://school:school@cluster0.xdoz0vd.mongodb.net/SchoolDB?";
 
-const urls = "mongodb://localhost/schoolManagementDB";
+const LOCALURL = "mongodb://localhost/schoolManagementDB";
 
 mongoose
   .connect(MAINURL)
