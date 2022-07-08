@@ -26,3 +26,5 @@ app.use(
 app.listen(port, () => {
   console.log("server is now connected");
 });
+
+module.exports = app;
