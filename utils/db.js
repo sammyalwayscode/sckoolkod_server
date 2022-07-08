@@ -1,11 +1,11 @@
 const mongoose = require("mongoose");
-const url =
-  "mongodb+srv://Veekta:onyeka17$@cluster0.vkqi4.mongodb.net/SchoolErp2?";
+const MAINURL =
+  "mongodb+srv://school:school@cluster0.xdoz0vd.mongodb.net/SchoolDB?";
 
 const urls = "mongodb://localhost/schoolManagementDB";
 
 mongoose
-  .connect(urls)
+  .connect(MAINURL)
   .then(() => {
     console.log("database connected...");
   })
